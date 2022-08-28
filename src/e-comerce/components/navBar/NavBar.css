@@ -1,0 +1,43 @@
+.fondoNavBar{
+width: 100%;
+background-color: rgba(0, 0, 0, 0.452);
+color: white;
+position: absolute;
+}
+.navBarGrid{
+display: grid;
+grid-template-rows: 1fr 1fr;
+}
+
+.navBarFlex{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navBarSpan{
+    margin: 10px;
+}
+
+.navBarTitle h1{
+    margin: 5px;
+
+}
+.navBarContainerSpan{
+    width: 50%;
+    margin: auto;
+}
+.navBarFlex2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navBarFlex2 li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.link{
+    color: azure;
+    text-decoration: none;
+}
