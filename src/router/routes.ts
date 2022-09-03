@@ -22,31 +22,31 @@ export const routes : Route[]=[
         to:'/main',
         path:'main',
         Component:Main,
-        name:'Main'
+        name:'Home'
     },
     {
         to:'/hoodie',
         path:'hoodie',
         Component:Hoodie,
-        name:'Hoodie'
+        name:'Hoodies'
     },
     {
         to:'/pants',
         path:'pants',
         Component:Pants,
-        name:'Pants'
-    },
-    {
-        to:'/products',
-        path:'products',
-        Component:Products,
-        name:"Products"
+        name:'Pantalones'
     },
     {
         to:'/snakers',
         path:'snakers',
         Component:Snakers,
         name:"Snakers"
+    },
+    {
+        to:'/products',
+        path:'products',
+        Component:Products,
+        name:"Productos"
     },
     
 ]

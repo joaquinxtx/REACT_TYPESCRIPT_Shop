@@ -1,0 +1,45 @@
+.containerProduct{
+    width: 370px;
+    margin-left: 20px ;
+    
+}
+.productGrid{   
+    transition: .3s ease-out;
+    display: grid;   
+    grid-area: 0; 
+    margin-left: 5px; 
+    margin-top: 20px;  
+}
+
+
+.productGrid:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -25px 23px 10px -4px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -25px 23px 10px -4px rgba(0,0,0,0);   
+}
+
+.productImg img{
+    height: 370px;
+    width: 370px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.productDescripcion{
+    background-image: url(https://thumbs.dreamstime.com/b/el-dise%C3%B1o-blanco-abstracto-del-fondo-con-%C3%A1ngulos-y-capa-modernos-forma-con-textura-gris-del-grunge-91810845.jpg);
+    background-position: -40px;
+    
+    background-attachment: fixed;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.productDescripcion span{
+    display: block;
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;
+    padding-bottom: 15px;
+   
+}
+.productDescripcion h3{
+
+    text-align: center;
+}

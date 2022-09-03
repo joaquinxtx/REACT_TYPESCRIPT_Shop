@@ -16,6 +16,9 @@
     display: none !important; 
     
 }
+.category{
+    display: none;
+}
 
 
 @media screen and (max-width:850px) {
@@ -92,6 +95,21 @@
         margin-left: 20px !important;
         justify-content: center !important;
         position: relative !important;
+    }
+
+    .liFlex{
+        margin-right: 0;
+    }
+    .category{
+        display: flex;
+        align-items: center;
+    }
+    .category p{
+        margin-right:5px ;
+        font-size: 19px;
+        font-weight: 600;
+        text-shadow: 8px 0px 9px rgb(255, 0, 0);
+        text-decoration: line-through;
     }
     
 }

@@ -1,0 +1,22 @@
+.containerProductProduct{
+   
+    margin: 0 auto;
+    height: 100%;
+}
+.productsTitle{
+    margin-left: 30px;
+}
+.productsTitle h1{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    text-shadow: 8px 0px 9px rgb(255, 0, 0);
+    text-decoration: 2px line-through rgb(189, 3, 3);
+}
+
+.productFlex{   
+    display: flex;
+    flex-wrap: wrap;
+    
+}

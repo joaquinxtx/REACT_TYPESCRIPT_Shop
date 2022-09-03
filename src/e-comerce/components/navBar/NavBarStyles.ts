@@ -141,7 +141,7 @@ export const NavBarFlex2 = styled.div`
   @media screen and (max-width:850px){
     display: block;
         position: absolute;
-        top: 130px;
+        top: 90px;
         left: 20px;
         width: 100%;
         height: 20vh;
@@ -153,7 +153,10 @@ export const NavBarFlex2 = styled.div`
         list-style: none;
         margin-bottom: 30px;
         font-size: large;
+        width: 90%;
+        margin-right: 0;
     }
+
   }
 `;
 export const HamburgerContainer = styled.div`

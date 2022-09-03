@@ -20,6 +20,7 @@
     width: 400px;
 }
 .footerDiv2 li{
+    cursor: pointer;
     list-style: none;
     margin-bottom: 30px;
 }
@@ -28,6 +29,7 @@
     width: 200px;
 }
 .footerDiv3 li{
+    cursor: pointer;
     margin-bottom: 30px;
     list-style: none;
 }
@@ -54,5 +56,11 @@
 .footerDiv3{
    margin-left: 10px;
    margin-top: 60px;
+}
+.footerDiv1{
+    width: 200px;
+}
+.footerDiv2{
+    width: 200px;
 }
 }

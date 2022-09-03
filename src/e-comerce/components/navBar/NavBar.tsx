@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import { routes } from "../../../router/routes";
 import {FondoNavBar,NavBarContainerTodo, HamburgerContainer, NavBarContainerSpan, NavBarFlex, NavBarFlex2, NavBarGrid, NavBarSpan1, NavBarSpan2, NavBarTitle, NavBarTitle1} from "./NavBarStyles"
 import { AiOutlineHome } from "react-icons/ai";
+import { BiDownArrow } from "react-icons/bi";
 import { AiOutlineEnvironment } from "react-icons/ai";
 import { AiTwotonePhone } from "react-icons/ai";
 import { FiHeart } from "react-icons/fi";
@@ -59,6 +60,10 @@ export const NavBar = () => {
         </NavBarFlex>
         <NavBarContainerSpan>
           <NavBarFlex2>
+            <div className="category">
+              <p>Category</p>
+              <BiDownArrow/>
+            </div>
           {routes.map((route) => (
                <li className="liFlex" key={route.to}>
                  <NavLink className="link" to={route.to}>
