@@ -1,0 +1,169 @@
+.sectionGrid{
+    width: 90%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+    margin-top: 50px; 
+    gap: 10px;
+}
+.section{
+    height: 400px;
+    
+}
+.section1{
+    background-image: url(https://wallpaperaccess.com/full/2910615.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 0px 0px 10px;
+}
+.section2{
+    background-image: url(https://media.revistagq.com/photos/616447de5c35f3d47d7c5496/16:9/w_2560%2Cc_limit/GettyImages-1325584526.jpg);
+    background-size: cover;
+    background-position: 400px;
+    background-attachment: fixed;
+    border-radius: 0px 10px 10px 0px;
+}
+.section3{
+    background-image: url(https://www.vermouth-deportivo.com.ar/wp-content/uploads/2022/06/Kobe-Bryant.jpg);
+    background-attachment: fixed;
+    border-radius: 10px 0px 0px 10px;
+}
+.section4{
+    background-image: url(https://www.teahub.io/photos/full/268-2682432_nike-sportswear-jogger-pants-pocket.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.section5{
+    background-image: url(https://media.revistagq.com/photos/5ca5f447e6e7b7fb7ce8913b/16:9/w_2560%2Cc_limit/trucos_consejos_empezar_coleccion_zapatillas_sneakers_adidas_air_jordan_nike_vans_converse_puma_new_balance_9512.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.section6{
+    background-image: url(https://static.highsnobiety.com/thumbor/D91PLBEo0qCn-bTi0AHjUscyjb4=/1000x600/static.highsnobiety.com/wp-content/uploads/2018/12/07124551/best-retro-sneaker-releases-2018-feature.jpg);
+   
+    background-position: -300px;
+    background-attachment: fixed;
+    border-radius: 0px 10px 10px 0px;
+}
+.section7{
+    background-image: url(https://labiode.com/wp-content/uploads/2021/05/Duki.jpg);
+    background-position: -40px;
+    
+    background-attachment: fixed;
+    border-radius: 10px 0px 0px 10px;
+}
+.section8{
+    background-image: url(https://fotos.perfil.com/2019/04/09/trim/950/534/duki-0409-665054.jpg);
+    border-radius: 0px 10px 10px 0px;
+    
+}
+.containerSection{
+background-color: rgba(0, 0, 0, 0.815);
+padding: 30px;
+
+top: 50%;
+left: 50%;
+transform: translate(-50%,30%);
+text-align:center;
+color: rgb(212, 212, 212);
+border-radius: 10px;
+}
+.containerSection h1{
+    text-shadow: 8px 0px 9px rgb(255, 0, 0);
+    text-decoration: line-through;
+}
+
+.sectionParagraph button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.014);
+    color: white;
+    cursor: pointer;
+    background-color: rgb(179, 11, 11);
+    transition: .4s all;
+}
+.sectionParagraph button:hover{
+    background-color: rgb(121, 4, 4);
+    border-bottom:1px solid white ;
+}
+
+@media screen and (max-width:850px){
+    .sectionGrid{margin-top: 150px;
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        gap: 150px;
+    }
+    .section1{
+        display: none;
+       
+    }
+    .section2{
+        background-image: url(https://media.revistagq.com/photos/616447de5c35f3d47d7c5496/16:9/w_2560%2Cc_limit/GettyImages-1325584526.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px ;
+    }
+    .section3{
+        display: none;       
+    }
+    .section4{
+        border-radius: 10px;
+    }
+   
+    .section5{
+        display: none;
+    }
+    .section6{
+        background-position: -40px;
+        border-radius: 10px;
+    }
+    .section7{
+        display: none;
+    }
+    .section8{
+        border-radius: 10px;
+    }
+    .containerSection{
+        background-color: rgba(0, 0, 0, 0.815);
+        padding: 30px;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(5%,-30%);
+        text-align:center;
+        color: rgb(212, 212, 212);
+        border-radius: 10px;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .containerSection{
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(3%,-30%);
+    }
+    .section8{
+        background-position: -190px;
+    }
+}
+@media screen and (max-width:400px){
+    .containerSection{
+       
+        padding: 20px;
+        width: 70%;
+        top: 50%;
+        left: 50%;
+        transform: translate(10%,-30%);
+        
+    }
+    .section8{
+        background-position: -190px;
+    }
+}

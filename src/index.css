@@ -16,3 +16,15 @@ code {
   --text1:#313131;
   
 }
+
+::-webkit-scrollbar {
+	width: 10px;
+  background-color: rgb(31, 30, 30);
+}
+
+::-webkit-scrollbar-thumb {
+  
+	border-radius: 10px;
+	background-color: rgba(145, 17, 17, 0.774);
+}
+

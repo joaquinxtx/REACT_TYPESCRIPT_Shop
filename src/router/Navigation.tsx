@@ -1,5 +1,6 @@
 import React, { Component, Suspense } from 'react'
 import { BrowserRouter, Navigate, Route,  Routes } from 'react-router-dom'
+import { Footer } from '../e-comerce/components/footer/Footer'
 import { NavBar } from '../e-comerce/components/navBar/NavBar'
 import PageMain from '../e-comerce/pages/PageMain'
 
@@ -24,7 +25,7 @@ export const Navigation = () => {
                 <Route path='/*' element={ <Navigate to={routes[0].to} replace /> } />
             </Routes>
 
-            
+            <Footer/>
     </BrowserRouter>
    </Suspense>
   )

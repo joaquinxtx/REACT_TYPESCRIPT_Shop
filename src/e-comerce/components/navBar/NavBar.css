@@ -1,43 +1,97 @@
-.fondoNavBar{
-width: 100%;
-background-color: rgba(0, 0, 0, 0.452);
-color: white;
-position: absolute;
-}
-.navBarGrid{
-display: grid;
-grid-template-rows: 1fr 1fr;
-}
 
-.navBarFlex{
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.navBarSpan{
-    margin: 10px;
-}
-
-.navBarTitle h1{
-    margin: 5px;
-
-}
-.navBarContainerSpan{
-    width: 50%;
-    margin: auto;
-}
-.navBarFlex2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.navBarFlex2 li{
-    text-decoration: none;
-    list-style: none;
-}
 
 .link{
     color: azure;
     text-decoration: none;
+    margin-right: 5px;
+}
+.liFlex{
+    display: flex;
+}
+.iconNav{
+    width: 30px;
+    height: 30px;
+}
+.hamburger-react{
+    display: none !important; 
+    
+}
+
+
+@media screen and (max-width:850px) {
+    .fondoNavBar{
+        width: 100%;
+        height: 70%;
+        background-color: rgba(12, 12, 12, 0.712);
+        color: white;
+        position: absolute;
+        }
+    .navBarFlex{
+        display:grid;
+        grid-template-columns:1fr 1fr ;      
+    }
+    .navBarFlex h1{
+        position: absolute; 
+        top: 0%;
+        left: 40%;     
+    }
+    .navBarSpan1{
+        
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .navBarSpan1 div{  
+        display: flex;
+        margin-top: 20px;
+    }
+    .navBarSpan2{
+        
+        position: absolute;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .navBarSpan2 div{  
+        display: flex;
+        margin-top: 20px;
+    }
+    
+
+    .navBarFlex2{
+        display: block;
+        position: absolute;
+        top: 130px;
+        left: 20px;
+        width: 100%;
+        height: 20vh;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .navBarFlex2 li{
+        text-decoration: none;
+        list-style: none;
+        margin-bottom: 30px;
+        font-size: large;
+    }
+    .hamburger-react{
+        display: flex !important; 
+        margin-left: 20px !important;
+        justify-content: center !important;
+        position: relative !important;
+    }
+    
 }
