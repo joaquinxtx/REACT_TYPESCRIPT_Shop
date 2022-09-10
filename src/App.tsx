@@ -1,6 +1,9 @@
 
 import PageMain from "./e-comerce/pages/PageMain"
-import { Navigation } from "./router/Navigation"
+import { AppRouter } from "./routes/AppRouter"
+import { AppTheme } from "./theme/AppTheme"
+
+
 
 
 
@@ -9,7 +12,10 @@ function App() {
 
   return (
    <>
-    <Navigation/>
+   <AppTheme>
+    <AppRouter/>
+
+   </AppTheme>
     
    </>
    )

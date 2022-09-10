@@ -10,7 +10,7 @@ export const Product = () => {
             <div className='productDescripcion'>
                 <h3>Remera givenchy</h3>
                 <span>$15.0890</span>
-                <span>Ver Detalles</span>
+                <span className='detail'>Ver Detalles</span>
             </div>
         </div>
 

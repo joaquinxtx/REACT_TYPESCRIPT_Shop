@@ -9,11 +9,11 @@ interface Route{
 
 }
 
-const Main = lazy(()=>import('../e-comerce/pages/PageMain'))
-const Hoodie = lazy(()=>import('../e-comerce/pages/PageHoodie'))
-const Pants= lazy(()=>import('../e-comerce/pages/PagePants'))
-const Products = lazy(()=>import('../e-comerce/pages/PageProducts'))
-const Snakers = lazy(()=>import('../e-comerce/pages/PageSnakers'))
+const Main = lazy(()=>import('../pages/PageMain'))
+const Hoodie = lazy(()=>import('../pages/PageHoodie'))
+const Pants= lazy(()=>import('../pages/PagePants'))
+const Products = lazy(()=>import('../pages/PageProducts'))
+const Snakers = lazy(()=>import('../pages/PageSnakers'))
 
 
 export const routes : Route[]=[

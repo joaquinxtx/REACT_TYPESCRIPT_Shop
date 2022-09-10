@@ -36,10 +36,27 @@
     font-size: 20px;
     margin-top: 0px;
     text-align: center;
-    padding-bottom: 15px;
+    margin-bottom: 20px;
+    
    
 }
 .productDescripcion h3{
-
+    
     text-align: center;
 }
+.detail{
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: .6s;
+}
+.detail:hover{
+    
+    text-shadow: 4px 0px 4px rgb(255, 0, 0);
+    text-decoration: 1px line-through rgb(189, 3, 3);
+}
+

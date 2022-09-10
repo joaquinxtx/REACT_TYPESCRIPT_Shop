@@ -1,0 +1,13 @@
+.box-shadow{
+    box-shadow:0px 5px 5px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.backgrounAuth{
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/10e2f793604563.5e68fc46cc4fe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}

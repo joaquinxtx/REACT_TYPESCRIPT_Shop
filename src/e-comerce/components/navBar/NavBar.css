@@ -20,6 +20,11 @@
     display: none;
 }
 
+.iconNavExit{
+fill: rgb(236, 10, 10);
+margin-left: 60px;
+}
+
 
 @media screen and (max-width:850px) {
     .fondoNavBar{
@@ -111,5 +116,9 @@
         text-shadow: 8px 0px 9px rgb(255, 0, 0);
         text-decoration: line-through;
     }
+    .iconNavExit{
+        fill: rgb(236, 10, 10);
+        margin-left: 0px;
+        }
     
 }

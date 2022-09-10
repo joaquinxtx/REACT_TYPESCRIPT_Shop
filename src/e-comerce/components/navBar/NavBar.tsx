@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { routes } from "../../../router/routes";
+import { routes } from "../../router/routes";
 import {FondoNavBar,NavBarContainerTodo, HamburgerContainer, NavBarContainerSpan, NavBarFlex, NavBarFlex2, NavBarGrid, NavBarSpan1, NavBarSpan2, NavBarTitle, NavBarTitle1} from "./NavBarStyles"
 import { AiOutlineHome } from "react-icons/ai";
+import { GiExitDoor } from "react-icons/gi";
 import { BiDownArrow } from "react-icons/bi";
 import { AiOutlineEnvironment } from "react-icons/ai";
 import { AiTwotonePhone } from "react-icons/ai";
@@ -55,6 +56,9 @@ export const NavBar = () => {
              </div>
              <div>
                <BsSearch className="iconNav" />
+             </div>
+             <div>
+               <GiExitDoor className="iconNav iconNavExit" />
              </div>
             </NavBarSpan2>
         </NavBarFlex>
