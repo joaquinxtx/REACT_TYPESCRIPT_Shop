@@ -96,7 +96,7 @@ export const NavBarTitle1 = styled.div`
 
         display: block;
         position: absolute; 
-        position: absolute; 
+        
             top: -9%;
             left: 40%; 
             text-shadow: 8px 0px 9px rgb(255, 0, 0);
@@ -142,7 +142,8 @@ export const NavBarFlex2 = styled.div`
     display: block;
         position: absolute;
         top: 90px;
-        left: 20px;
+        left: -5px;
+        margin-left: 15px;
         width: 100%;
         height: 20vh;
         justify-content: center;

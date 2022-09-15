@@ -5,7 +5,7 @@ import {FondoNavBar,NavBarContainerTodo, HamburgerContainer, NavBarContainerSpan
 import { AiOutlineHome } from "react-icons/ai";
 import { GiExitDoor } from "react-icons/gi";
 import { BiDownArrow } from "react-icons/bi";
-import { AiOutlineEnvironment } from "react-icons/ai";
+import { BsFillPersonCheckFill } from "react-icons/bs";
 import { AiTwotonePhone } from "react-icons/ai";
 import { FiHeart } from "react-icons/fi";
 import { RiShoppingCartLine } from "react-icons/ri";
@@ -13,8 +13,20 @@ import { BsSearch } from "react-icons/bs";
 import Hamburger from "hamburger-react";
 
 import "./NavBar.css";
+
+import { AppDispatch, useAppDispatch } from "../../../store/store";
+import { StartLogout } from "../../../store/auth/thunks";
+import { useAppSelector } from "../../../hooks/hooks";
+
+
 export const NavBar = () => {
+
     const [showMobileMenu, setShowMobileMenu] = useState(false)
+    const dispatch:AppDispatch = useAppDispatch();
+    const{email}=useAppSelector(state=> state.auth)
+    const onLogout =()=>{
+      dispatch(StartLogout());
+    }
   return (
 
     <>
@@ -32,13 +44,13 @@ export const NavBar = () => {
       <NavBarGrid>
         <NavBarFlex>
             <NavBarSpan1>
-            <div>
-               <AiOutlineEnvironment />
-               <span>Argentina</span>
+            <div className="email">
+               <BsFillPersonCheckFill />
+               <span className="email">{email}</span>
              </div>
-             <div>
+             <div className="email">
                <AiTwotonePhone />
-               <span>+54 2966 217528</span>
+               <span className="email">+54 2966 217528</span>
              </div>
             </NavBarSpan1>
             <NavBarTitle>
@@ -57,7 +69,7 @@ export const NavBar = () => {
              <div>
                <BsSearch className="iconNav" />
              </div>
-             <div>
+             <div onClick={onLogout}>
                <GiExitDoor className="iconNav iconNavExit" />
              </div>
             </NavBarSpan2>
