@@ -1,0 +1,15 @@
+.flexButton{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.counter{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.buttonsCounterPositive{
+    background-color: transparent;
+}
+.buttonsCounterNegative{
+    background-color: transparent;
+}

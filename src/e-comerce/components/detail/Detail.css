@@ -1,0 +1,98 @@
+.containerProductDetail{
+    margin: 0 auto;
+    height: 100%;
+}
+.detailTitle{
+    margin-left: 30px;
+}
+.detailTitle h1{
+    margin: 0;
+    font-size: 50px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    text-shadow: 8px 0px 9px rgb(255, 0, 0);
+    text-decoration: 2px line-through rgb(189, 3, 3);
+}
+
+.containerDetail{
+    width: 370px;  
+    margin: auto;
+    margin-right: 900px;
+    
+}
+
+
+.detaitGrid{   
+    transition: .3s ease-out;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 5px; 
+    grid-area: 0; 
+    margin-left: 5px; 
+    margin-top: 20px;  
+}
+
+
+
+
+.detailImg img{
+    height: 470px;
+    width: 470px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.detailDescripcion{
+    width: 400px;
+    height: 470px;
+    background-image: url(https://thumbs.dreamstime.com/b/el-dise%C3%B1o-blanco-abstracto-del-fondo-con-%C3%A1ngulos-y-capa-modernos-forma-con-textura-gris-del-grunge-91810845.jpg);
+    background-position: 700px;
+    border-radius: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.detailDescripcion .price{
+    font-size: 37px;
+
+}
+.detailDescripcion span{
+    display: block;
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+   
+}
+.detailDescripcion h3{
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 0;
+}
+.detailDescripcion p{
+    
+    margin: 10px;
+    font-weight: 500;
+}
+.buttonCart{
+    background-color: rgba(240, 248, 255, 0);
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    font-size: medium;
+    width: 200px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: .6s;
+}
+.buttonCart:hover{
+    
+    text-shadow: 4px 0px 4px rgb(255, 0, 0);
+    text-decoration: 1px line-through rgb(189, 3, 3);
+}
+
+

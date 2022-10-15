@@ -25,25 +25,25 @@ export const routes : Route[]=[
         name:'Home'
     },
     {
-        to:'/hoodie',
-        path:'hoodie',
+        to:'category/hoodie',
+        path:'category/:id',
         Component:Hoodie,
         name:'Hoodies'
     },
     {
-        to:'/pants',
-        path:'pants',
+        to:'category/pants',
+        path:'category/:id',
         Component:Pants,
         name:'Pantalones'
     },
     {
-        to:'/snakers',
-        path:'snakers',
+        to:'category/snaker',
+        path:'category/:id',
         Component:Snakers,
         name:"Snakers"
     },
     {
-        to:'/products',
+        to:'products',
         path:'products',
         Component:Products,
         name:"Productos"

@@ -131,7 +131,7 @@ border-radius: 10px;
     .containerSection{
         background-color: rgba(0, 0, 0, 0.815);
         padding: 30px;
-        width: 80%;
+        width: 90%;
         top: 50%;
         left: 50%;
         transform: translate(5%,-30%);
@@ -144,7 +144,7 @@ border-radius: 10px;
 
 @media screen and (max-width:480px){
     .containerSection{
-        width: 80%;
+        width: 90%;
         top: 50%;
         left: 50%;
         transform: translate(3%,-30%);
@@ -155,12 +155,13 @@ border-radius: 10px;
 }
 @media screen and (max-width:400px){
     .containerSection{
-       
-        padding: 20px;
-        width: 70%;
+        width: 90%;
+        height: 400px;
+        padding: 10px;
+        
         top: 50%;
         left: 50%;
-        transform: translate(10%,-30%);
+        transform: translate(5%,-20%);
         
     }
     .section8{

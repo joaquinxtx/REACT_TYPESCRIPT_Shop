@@ -10,9 +10,11 @@ import { AppDispatch } from '../../store/store';
 import { useMemo } from 'react';
 import { useAppSelector } from '../../hooks/hooks';
 
+
  type Inputs = {
   email: string;
   password:string;
+  displayName:string;
   
 };
 
@@ -35,7 +37,8 @@ export const LoginPage = () => {
     } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = (data) => {
-    dispatch(startLoginWithEmailPassword(data))
+    const {email,password,displayName}=data
+    dispatch(startLoginWithEmailPassword({email,password,displayName}))
     
 }
 
